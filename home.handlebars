@@ -1,0 +1,79 @@
+<h1>
+    <section class="checkout">
+        <div class="left-section">
+            <h2>Thông tin người nhận</h2>
+            <form>
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Số điện thoại" required>
+                <input type="text" placeholder="Địa chỉ" required>
+
+                <div class="dropdowns">
+                    <select>
+                        <option value="" disabled selected>Tỉnh / Thành</option>
+                        <option value="hcm">TP. Hồ Chí Minh</option>
+                        <option value="hn">Hà Nội</option>
+                        <option value="dn">Đà Nẵng</option>
+                        <option value="ct">Cần Thơ</option>
+                    </select>
+
+                    <select>
+                        <option value="" disabled selected>Quận / Huyện</option>
+                        <option value="1">Quận 1</option>
+                        <option value="2">Quận 2</option>
+                        <option value="3">Quận 3</option>
+                        <option value="4">Quận 4</option>
+                        <option value="5">Quận 5</option>
+                    </select>
+
+                    <select>
+                        <option value="" disabled selected>Phường / Xã</option>
+                        <option value="p1">Phường 1</option>
+                        <option value="p2">Phường 2</option>
+                        <option value="p3">Phường 3</option>
+                        <option value="p4">Phường 4</option>
+                        <option value="p5">Phường 5</option>
+                        <option value="p6">Phường 6</option>
+                        <option value="p7">Phường 7</option>
+                        <option value="p8">Phường 8</option>
+                        <option value="p9">Phường 9</option>
+                        <option value="p10">Phường 10</option>
+                    </select>
+                </div>
+            </form>
+
+            <h2>Phương thức thanh toán</h2>
+            <div class="payment-methods">
+                <div class="method">
+                    <input type="radio" name="payment" value="vnpay" checked> VNPay
+                </div>
+                <div class="method">
+                    <input type="radio" name="payment" value="momo"> Ví Momo
+                </div>
+                <div class="method">
+                    <input type="radio" name="payment" value="atm"> ATM / Internet Banking
+                </div>
+                <div class="method">
+                    <input type="radio" name="payment" value="visa"> Visa / Master / JCB
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <h2>Sản phẩm</h2>
+            <div class="cart-items">
+                <div class="item">
+                    <span>One Piece 100 x2</span>
+                    <span>136,800đ</span>
+                </div>
+                <!-- Thêm các sản phẩm khác tương tự -->
+            </div>
+            <div class="total">
+                <p>Tổng tiền sản phẩm: 1,230,000đ</p>
+                <p>Khuyến mãi: 0đ</p>
+                <p class="final-total">Tổng cộng: 1,230,000đ</p>
+            </div>
+            <button class="checkout-button">Thanh Toán</button>
+        </div>
+    </section>
+</h1>
